@@ -53,6 +53,6 @@ Koszyk na zakupy
 </table>
 <p class="text-right">
     <a href="{% url 'shop:product_list' %}" class="buttonlight">Kontynuuj zakupy</a>
-    <a href="#" class="button">Do kasy</a>
+    <a href="{% url 'orders:order_create' %}" class="button">Do kasy</a>
 </p>
 {% endblock %}
