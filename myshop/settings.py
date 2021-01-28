@@ -142,3 +142,7 @@ Configuration.configure(
     BRAINTREE_PRIVATE_KEY
 )
 CELERY_TASK_ALWAYS_EAGER = True
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+
